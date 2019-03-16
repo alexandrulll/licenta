@@ -5,7 +5,7 @@ pin = 23
 
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 
-while(true):
+while True:
 	if humidity is not None and temperature is not None:	
 		print('Temp={0:1f}*C  Humidity={1:0.1f}%'.format(temperature, humidity))
 else:
