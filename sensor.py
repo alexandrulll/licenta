@@ -1,7 +1,7 @@
 import Adafruit_DHT
 import time
 
-sensor = Adafruit_DHT.DHT22
+sensor = Adafruit_DHT.DHT11
 
 pin = 23
 humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
