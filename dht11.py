@@ -10,9 +10,9 @@ GPIO.setmode(GPIO.BCM)
  
 GPIO.setup(4,GPIO.OUT)
 GPIO.output(4,GPIO.HIGH)
-time.sleep(0.025)
+time.sleep(0.25)
 GPIO.output(4,GPIO.LOW)
-time.sleep(0.02)
+time.sleep(0.2)
  
 GPIO.setup(4, GPIO.IN, pull_up_down=GPIO.PUD_UP)
  
