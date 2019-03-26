@@ -4,7 +4,7 @@ conn = psycopg2.connect('dbname=test')
 cur = conn.cursor()
 
 create_table_query = """CREATE TABLE dht11(
-    id integer PRIMARY KEY AUTOINCREMENT,
+    id integer PRIMARY KEY,
     temperature numeric,
     humidity numeric);"""
 
