@@ -7,8 +7,3 @@ cur.execute("""CREATE TABLE dht11(
     id integer PRIMARY KEY,
     temperature text,
     humidity text)""")
-
-results = cur.fetchall()
-
-for result in results:
-    print(result)
