@@ -5,4 +5,4 @@ cur = conn.cursor()
 
 cur.execute("DROP TABLE dht11;")
 conn.commit()
-print("Table created successfully in PostgreSQL ")
+print("Table droped successfully in PostgreSQL ")
