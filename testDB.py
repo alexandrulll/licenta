@@ -9,7 +9,5 @@ create_table_query = """CREATE TABLE dht11(
     humidity text);"""
 
 cur.execute(create_table_query)
-	
- connection.commit()
- 
- print("Table created successfully in PostgreSQL ")
+conn.commit()
+print("Table created successfully in PostgreSQL ")
