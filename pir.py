@@ -16,7 +16,7 @@ try:
 			time.sleep(0.5)
 			GPIO.output(24, False)
 			print("Motion Detected")
-			#time.sleep(5)
+			time.sleep(25)
 		time.sleep(0.1)
 		
 except:
