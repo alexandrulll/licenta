@@ -2,8 +2,9 @@ import RPi.GPIO as GPIO
 import time
 
 GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
 
-GPIO.setup(23, GPIO.IN)
+GPIO.setup(23, GPIO.IN, GPIO.PUD_DOWN)
 GPIO.setup(24, GPIO.OUT)
 
 try:
