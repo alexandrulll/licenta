@@ -20,3 +20,5 @@ while True:
 	print "Full Spectrum(IR + Visible) :%d lux" %ch0
 	print "Infrared Value :%d lux" %ch1
 	print "Visible Value :%d lux" %(ch0 - ch1)
+	
+	time.sleep(5)
